@@ -29,7 +29,7 @@ jobs:
         uses: actions/setup-python@v5.3.0
         
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Project Tests
         run: |
           echo "Executing Automation Tests"
           python3 appTest.py
